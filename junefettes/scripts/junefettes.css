@@ -1,0 +1,80 @@
+body{ margin :0px; font-family : Verdana, Arial, Helvetica, sans-serif; font-size : 0.8em; text-align :center; color : #333; }
+body *{ font-size : 100%; }
+
+/*index page*/
+body#homePage .content h1 {  }
+body#homePage .content { width:97%; margin:10px; }
+
+/* Container */
+#siteContainer{ width : 744px; padding : 10px 0 ; margin : 0 auto; text-align : left; border : solid #555;	border-width : 0 2px 2px 2px; font-size:80%; }
+
+.left { float:left; width:25%; margin:0 5px;}
+.middle { width:40%;}
+.main-image { clear:both; padding:20px 0 0 0;}
+
+
+/* headerBar */
+#headerBar .logo{	width : 400px;	float : left; }
+#headerBar .contactBar{	width : 320px;	float : right;	text-align : right;	padding : 10px; }
+#headerBar .contactBar h1{ color : #881155; margin : 2px; padding : 0;}
+#headerBar .contactBar p{ margin : 2px ; padding : 0; text-align : right;}
+#headerBar .contactBar strong{ color : #881155; }
+
+/*SiteBox*/
+#siteBox .bannerImage { background : #555; text-align : center; padding :0px;} 
+#siteBox .bannerImage img{ margin : 0 0 -4px 0;} 
+#siteBox .associates img{ float : left; margin : 10px 15px 5px 0; }
+#siteBox .menu{ width : 220px; float : left; margin : 10px 0; }
+#siteBox .menu span{ display : block; padding : 2px 5px; margin : 0 0 1px 3px; }
+#siteBox .menu span a{ color : #333; font-weight : bold; color : #881155; }
+#siteBox .content{ width : 515px; float : right; margin : 10px 0;}
+
+#siteBox .content h1 { font-size:130%;}
+#siteBox .content h2 { font-size:130%; margin:17px 0 14px 0; }
+#siteBox .content h3 { font-size:120%; margin:14px 0 8px 0; }
+#siteBox .content h4 { font-size:120%; margin:14px 0 2px 0; font-weight:normal; font-style:italic; }
+#siteBox .content h5 { font-size:100%; margin:1px; }
+#siteBox .content h6 { font-size:100%; font-weight:normal; margin:1px; }
+
+/* Footer */
+#footer{ width : 744px; padding : 0 ; margin : 0 auto 10px auto;  text-align : right;  color : #aaa;}
+#footer a{ color : #aaa; }
+
+.clr{	height : 1px; 	overflow : hidden; clear : both;}
+
+/*-------*/
+
+.cta div h2 { font-size : 1.2em; margin : 0 5px; }
+.cta div { margin : 15px 15px 5px 0; border : 1px solid #333;}
+.cta div.organisation { margin-top: 0;}
+.cta div div.more { color : #000; margin : 0; border-width : 0; border-top : 1px solid #333; background: #eee; text-align : right;}
+.cta div div.more a{ color : #881155; padding : 2px 5px 2px 0; font-weight : bold;}
+
+ol, ul { margin: 5px; padding : 0 3px;}
+li{ margin: 3px 3px 3px 20px; }
+ol li{ list-style : none; }
+
+p { margin : 10px 15px 10px 0; text-align : justify;}
+p.quote { margin : 10px 40px; font-style: italic;}
+
+fieldset { margin : 15px; }
+fieldset legend { font-weight : bold; font-size : 1.2em;}
+
+/*-------*/
+a{	text-decoration : none; color : #881155;}
+a:hover{ text-decoration : underline; }
+a img{ border : 0; }
+h1{ margin : 0; font-size : 1.3em;}
+
+/*-------*/
+
+#sitemap .section { font-size : 1.1em; font-weight :bold;}
+#sitemap .subsection {font-size : 1.1em; padding: 3px 5px 3px 20px;}
+#sitemap .article {padding: 3px 5px 3px 40px;}
+
+/*form styling*/
+form { border : 1px solid #333; background : #881155; padding : 10px; margin : 20px; width : 350px; color : #FFF;}
+form label { display : block; font-weight : bold; padding : 3px; margin : 3px 0 0 0;}
+form input { margin : 0 0 0 20px; }
+form input.wide{ width : 300px; display : block ;}
+form textarea { display : block ; margin : 0 0 0 20px; width : 300px; height : 200px;}
